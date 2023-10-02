@@ -1,4 +1,4 @@
-// Throttling Function
+// Using Throttling Function
 const throttleFunction = (func, delay) => {
   let prev = 0;
   return (...args) => {
